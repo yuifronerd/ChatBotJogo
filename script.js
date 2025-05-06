@@ -28,9 +28,9 @@ function getMusicSuggestion(message) {
             plataforma: "Mario Bros",
             dança: "Just Dance"
         };
-        displayMessage('Chatbot: ' + suggestions[genreName]);
+        displayMessage('GamerBOT: ' + suggestions[genreName] + ' é um bom jogo deste genero :)');
     } else {
-        displayMessage("Chatbot: Desculpe, não entendi. Tente mencionar um gênero de jogo como FPS, Aventura, Terror, RPG.");
+        displayMessage("GamerBOT: Desculpe, não entendi. Tente mencionar um gênero de jogo como FPS, Aventura, Terror, RPG.");
     }
 }
 
